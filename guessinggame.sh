@@ -14,7 +14,6 @@ then
 
 risposta=1
 make README.md
-
 exit 0
    
 elif [[ $risp2 -gt  $(ls -a . | wc -l) ]]
