@@ -9,7 +9,7 @@ risp2=0
 
 function richiesta(){
 
-if [[ $risp2 -eq $(ls . | wc -l) ]]
+if [[ $risp2 -eq $(ls -a . | wc -l) ]]
 
 then 
   echo  ---------------------------------------------------
@@ -21,7 +21,7 @@ make README.md
 
 exit 0
    
-elif [[ $risp2 -gt  $(ls . | wc -l) ]]
+elif [[ $risp2 -gt  $(ls -a . | wc -l) ]]
 then
   echo
   echo "I'm sorry $numeroFile is higher"
