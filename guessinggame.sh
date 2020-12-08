@@ -1,6 +1,5 @@
 #!/bin/bash
 
-numeroTotale=0
 risposta=0
 risp2=0
 
@@ -18,9 +17,9 @@ exit 0
    
 elif [[ $risp2 -gt  $(ls -a . | wc -l) ]]
 then
-    echo "I'm sorry $numeroFile is higher"
+    echo "I'm sorry $risp2 is higher"
    else
-  echo "I'm sorry $numeroFile is smaller"
+  echo "I'm sorry $risp2 is smaller"
  
 fi
  echo
