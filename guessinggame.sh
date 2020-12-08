@@ -33,4 +33,3 @@ do
 risp2=$response
   richiesta 
 done
-
